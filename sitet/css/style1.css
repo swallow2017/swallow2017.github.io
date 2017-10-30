@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 81px;
+    color: #a38b70;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 21px;
+    font-weight: bold;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper-content {
+    width: 1020px;
+    display: block;
+    margin: 0 auto;
+    -outline: 1px solid red;
+}
+
+.page-header {
+    background: grey;
+    background: url(../img/header_backgroun_2.jpg) center no-repeat;
+    height: 563px;
+}
+
+.page-top {
+    padding-top: 69px;
+}
+
+.page-top:after {
+    content:"";
+    display:block;
+    visibility:hidden;
+    height:0;
+    clear:both;
+}
+
+.page-top ul{
+    list-style-type: none;
+}
+
+.page-top ul li {
+    float:left;
+}
+
+.page-top ul li a {
+    color: #fff;
+    padding: 10px 56px;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.page-top ul li a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    width: 187px;
+    height: 76px;
+    margin-top: -20px;
+    background: url(../img/logo.png) no-repeat center;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 147px;
+}
+
+.new-items {
+    -width: 960px;
+    -margin: 0px auto;
+    padding-top: 84px; 
+}
+
+.column {
+    width: 50%;
+}
+
+.bottle-one {
+    float: left;
+}
+
+.bottle-twoo {
+    float: right;
+}
+
+.column img { float: left; }
+
+.bottle-one table tr td, .bottle-twoo tr td {
+    font-weight: bold;
+    -padding: 15px;
+    padding-bottom: 20px;
+}
+
+.description_goods_price { float: left; }
+
+.description_goods_price p {
+    font-size: 28px;
+    width: 400px;
+    margin: 30px 0;
+    color: #404040;
+}
+
+.description_goods_price a {
+    color: #fff;
+    background-color: #a38b70;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 3px;
+}
+
+.description_goods_price a:hover {
+    opacity: 0.7;
+}
+
+.description_goods_price b {
+    font-size: 24px;
+}
+
+.features {
+    padding-top: 59px;
+    -padding-bottom: 59px;
+}
+
+.features ul {
+    font: 14px Verdana, Geneva, sans-serif;
+    text-align: justify;
+
+    /* Обнуляем для родителя*/
+    line-height: 0;
+    font-size: 1px; /* 1px для Opera */
+
+    /* Лекарство для IE6-7*/
+    text-justify: newspaper;
+    zoom:1;
+}
+
+.features ul:after {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+    display: inline-block;
+}
+
+.features ul li  {
+    -background: #E76D13;
+    -outline: 1px solid red;
+    width: 320px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    -border: 1px solid #000;
+    padding: 25px;
+    -padding-top: 143px;
+    box-sizing: border-box;
+
+    /* Востанавливаем у потомков, кроме последнего*/
+    line-height: normal;
+    font-size: 14px;
+
+    /* Без него в Opera будет отступ под элементами */
+    vertical-align: top;
+
+    /* эмуляция inline-block для IE6-7*/
+    //display : inline;
+    //zoom : 1;
+}
+
+.features ul li h2 {
+    color: #a38b70;
+    font-size: 30px;
+}
+.features ul li p {
+    color: #404040;
+}
+
+
+.history {
+    padding-top: 84px;
+}
+
+.history dl {
+    float: left;
+}
+
+.history dt {
+    float: left;
+    width: 100%;
+}
+
+.history img {
+    float: right;
+    padding-left: 31px;
+}
+
+.history dd {
+    float:left;
+    margin-bottom: 74px;
+}
+
+.history h3 {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.history a {
+    color: #a38b70;
+    font-style: italic;
+}
+
+.history i {
+    color: #666;
+}
+
+.history a, .history i {
+    line-height: 34px;
+}
+
+.press-reviews { 
+    padding-top: 83px; 
+}
+
+.press-reviews dd {
+    border-left: 3px solid #a38b70;
+    padding-left: 50px;
+}
+
+.press-reviews p {
+    margin-bottom: 23px;
+    line-height: 24px;
+    color: #404040;
+}
+
+.press-reviews i { font-weight: bold; }
+
+.press-reviews a {
+    color: #a38b70;
+    font-style: italic;
+}
+
+.range {padding-top: 83px;}
+
+.range table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.range th, .range td { 
+    padding: 18px; /* Поля вокруг текста */
+    text-align: left; /* Выравнивание по левому краю */ 
+    border: 1px solid #000;
+}
+
+.range th {
+    -background: #666;
+    -color: #fff;
+}
+
+.order { 
+    padding-top: 83px; 
+    padding-bottom: 70px;
+}
+
+.order p { margin-bottom: 83px; }
+
+.order-form-group label {
+    display: block;
+    margin-top: 23px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #404040;
+    padding-left: 17px;
+    
+}
+
+input[type="text"], 
+select, textarea { 
+    outline: none; 
+}
+
+.order-form-group #name,
+.order-form-group #phone,
+.order-form-group #phone-2,
+.order-form-group #email {
+    width: 100%;
+    height: 50px;
+    padding-left: 17px;
+    border: 2px solid #d5d5d5;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #404040;
+}
+
+.order-form-group #volume {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    border: 2px solid #d5d5d5;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #404040;
+    padding-left: 17px;
+}
+
+.order-form-group #comments {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 14px;
+    border: 2px solid #d5d5d5;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #404040;
+    font-family: Arial;
+    padding-top: 27px;
+    padding-left: 17px;
+    resize: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    margin: -1px 8px 0 0;
+    vertical-align: middle;
+    background: url(../img/check_radio_sheet.png) left top no-repeat;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background: url(../img/check_radio_sheet.png) -34px top no-repeat;
+}
+
+.order-form-group input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    -margin: 0 5px;
+    margin-top: 14px;
+    padding: 18px;
+    color: #ffffff;
+    background: #a38b70;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.page-footer {
+    background: #363636;
+    box-sizing: border-box;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.footer-top img {
+    float: left;
+    margin-bottom: 45px;
+}
+
+.footer-middle {
+    float: left;
+    clear: left;
+}
+
+.social-button {
+    float: left;
+    clear: left;
+}
+.footer-middle ul li {
+    display: inline-block;
+    padding-right: 56px;
+}
+
+.footer-middle ul li a {
+    color: #a38b70;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    float: left;
+    clear: left;
+}
+
+.share {
+    width: 159px;
+    margin: 0px auto;
+}
+
+.social-button {
+    width: 159px;
+    margin: 50px auto;
+}
+
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #bdc3c7 url("../img/social.png") no-repeat;
+    vertical-align: middle;
+}
+
+.social-vk {
+    background-color: #6d8fb3;
+    background-position: 0 0;
+}
+
+.social-fb {
+    background-color: #526da3;
+    background-position: -40px 0;
+}
+
+.social-tw {
+    background-color: #73bfe6;
+    background-position: -80px 0;
+}
+
+.footer-copyright {
+    float: left;
+    color: #c3c3c3;
+}
+
+.footer-copyright p {
+    margin-bottom: 20px; 
+}
+
+.footer-copyright b {
+    color: #a38b70; 
+}
+
+.footer-copyright img {
+    vertical-align: middle;
+    height: 34px; 
+    line-height: 34px;
+    margin-right: 20px; 
+}
+
+.footer-copyright a {
+    color: #fff;
+    text-decoration: none;
+}
